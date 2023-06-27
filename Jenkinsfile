@@ -5,7 +5,7 @@ stages {
     steps{
       script{
           var1 = 20
-          echo "Hey hi am from JenkinsPaC"
+       
           println "my variable value is ${var1}"
 
          } 
