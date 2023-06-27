@@ -5,9 +5,8 @@ stages {
     steps{
       script{
           var1 = 10
-          var2=20
        
-          println "my variable value is ${var1}  $(var2}"
+          println "my variable value is ${var1}"
 
          } 
       }
