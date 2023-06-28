@@ -1,5 +1,9 @@
 pipeline {
 agent any
+environment {
+  SUBJECT = "Jenkins-PaC"
+  BatchNo = "1"
+}
 stages {
    stage("This is my first stage"){
     steps{
@@ -9,6 +13,9 @@ stages {
           println " Hello here is your predefined variable ${currentBuild.result}"
           println " Hello here is your predefined variable ${currentBuild.id}"
           println " Hello here is your predefined variable ${currentBuild.fullProjectName}"
+
+         println " Here is my environment variable of Subject ${env.SUBJECT}"
+         println " Here is my environment variable of BatchNo ${env.BatchNo}"
 
          } 
       }
