@@ -24,7 +24,7 @@ stages {
           println " Here is my environment variable of Branch Name ${env.JOB_NAME}"
 
         println " Here is your Parameterised variable ${params.Subject}"
-        println " Here is your Parameterised variable ${params.ENV}"
+        println " Here is your Parameterised variable ${params.Env}"
 
          } 
       }
