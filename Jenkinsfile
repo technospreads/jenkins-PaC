@@ -16,7 +16,7 @@ stages {
 
          println " Here is my environment variable of Subject ${env.SUBJECT}"
          println " Here is my environment variable of BatchNo ${env.BatchNo}"
-          println " Here is my environment variable of Branch Name ${env.BRANCH_NAME}"
+          println " Here is my environment variable of Branch Name ${env.BUILD_ID}"
 
          } 
       }
