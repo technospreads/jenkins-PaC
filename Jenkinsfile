@@ -4,6 +4,11 @@ environment {
   SUBJECT = "Jenkins-PaC"
   BatchNo = "1"
 }
+parameters {
+  choice choices: ['Dev', 'QA', 'PreProd', 'Prod'], description: 'Please select environment. ', name: 'Please select environment '
+  string defaultValue: 'Devops', description: 'Here is your subject value.', name: 'Subject'
+}
+
 stages {
    stage("This is my first stage"){
     steps{
@@ -17,6 +22,8 @@ stages {
          println " Here is my environment variable of Subject ${env.SUBJECT}"
          println " Here is my environment variable of BatchNo ${env.BatchNo}"
           println " Here is my environment variable of Branch Name ${env.JOB_NAME}"
+
+        println " Here is your Parameterised variable ${params.Subject}"
 
          } 
       }
