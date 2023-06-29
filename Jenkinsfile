@@ -1,5 +1,6 @@
-pipeline {
-agent
+pipeline
+{
+agent any
 stages{
    stage("Working with conditions"){
      steps{
