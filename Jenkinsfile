@@ -6,7 +6,7 @@ stages{
       script{
            a=input message: 'Please enter A value', parameters: [string(defaultValue: '10', description: 'Please enter A value', name: 'a')]
            b=input message: 'Please enter B value', parameters: [string(defaultValue: '20', description: 'Please enter A value', name: 'b')]
-           if (a>b){
+           if (a.toInteger()>b.toInteger()){
            println "here is your A is big"
            }
            else{
