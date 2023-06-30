@@ -5,10 +5,11 @@ stages{
    stage("Working with conditions"){
      steps{
       script{
-           a=1
-           while (a<=10){
-              println "Here is your looped value:  ${a}"
-              a=a+1
+        
+        for (i=1;i<5;i++){
+
+             Println "Here is your for loop value :  ${i}"
+            }
            }
           }    
        }  
