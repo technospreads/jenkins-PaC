@@ -6,7 +6,7 @@ stages{
      steps{
       script{
         
-        for (i=1;i<5;i++){
+        for (i=1;i<=10;i++){
 
              println "Here is your for loop value :  ${i}"
             
