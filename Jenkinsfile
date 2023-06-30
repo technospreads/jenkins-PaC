@@ -11,8 +11,8 @@ stages{
              println "Here is your for loop value :  ${i}"
             
            }
-          list1=[10,20,30,40,50,60,70]
-           for (ravi in list1)
+      
+           for (ravi in 20..30)
             {
              println "Here is your second for loop value :  ${ravi}"
             }
