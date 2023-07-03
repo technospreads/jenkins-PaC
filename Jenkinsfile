@@ -15,7 +15,7 @@ stages{
          myfunction(100,200)
 
          println "here is your function value  ${result}"
-         println "here is your function value B value ${b}"
+      
           }    
        }  
      }
