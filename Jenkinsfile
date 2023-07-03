@@ -1,4 +1,4 @@
-def myfunction(int a , int b,string opr){
+def myfunction(int a , int b,String opr){
    println "${opr}"
 result = a opr b  
 }
