@@ -12,7 +12,7 @@ stages{
       script{
 
          myfunction(100,200)
-         println "here is your function value A value ${a}, and B value ${b} and final function value ${result}"
+         println "here is your function value A value ${a} and B value ${b} and final function value ${result}"
           }    
        }  
      }
