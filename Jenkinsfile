@@ -1,6 +1,6 @@
-def myfunction(int a , int b,String opr){
-   println "${opr}"
-result = a opr b  
+def myfunction(int a , int b){
+   
+result = a + b  
 }
 
 pipeline 
@@ -11,9 +11,9 @@ stages{
      steps{
       script{
         
-        myfunction(10,20,'+')
+        myfunction(10,20)
          println "here is your function value ${result}"
-         myfunction(100,200,'-')
+         myfunction(100,200)
          println "here is your function value ${result}"
           }    
        }  
