@@ -1,6 +1,6 @@
 def myfunction(int a , int b, opr){
    println "${opr}"
-result = a opr b  
+result = a"${opr}"b  
 }
 
 pipeline 
