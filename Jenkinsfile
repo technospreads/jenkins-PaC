@@ -8,8 +8,7 @@ agent any
 stages{
    stage("Working with conditions"){
      steps{
-      script{
-        
+      script{        
         myfunction()
           }    
        }  
