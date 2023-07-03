@@ -11,7 +11,7 @@ stages{
      steps{
       script{
 
-         myfunction(100)
+         myfunction(100,200)
          println "here is your function value ${result}"
           }    
        }  
