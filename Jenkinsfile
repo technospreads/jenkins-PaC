@@ -11,6 +11,7 @@ stages{
       script{
         
         myfunction(10,20)
+         println "here is your function value ${result}"
           }    
        }  
      }
