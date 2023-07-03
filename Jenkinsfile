@@ -10,9 +10,9 @@ stages{
      steps{
       script{
         
-        myfunction(10,20,+)
+        myfunction(10,20,'+')
          println "here is your function value ${result}"
-         myfunction(100,200,-)
+         myfunction(100,200,'-')
          println "here is your function value ${result}"
           }    
        }  
