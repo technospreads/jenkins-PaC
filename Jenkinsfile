@@ -1,5 +1,5 @@
-def myfunction(){
-  println "hey am from inside function"
+def myfunction(int a , int b){
+result = a+b  
 }
 
 pipeline 
@@ -8,8 +8,9 @@ agent any
 stages{
    stage("Working with conditions"){
      steps{
-      script{        
-        myfunction()
+      script{
+        
+        myfunction(10,20)
           }    
        }  
      }
