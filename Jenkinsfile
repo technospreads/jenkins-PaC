@@ -1,4 +1,5 @@
 def myfunction(int a , int b, opr){
+   println "${opr}"
 result = a opr b  
 }
 
