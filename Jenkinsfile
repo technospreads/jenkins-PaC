@@ -1,5 +1,6 @@
 def myfunction(int a , int b){
-   
+println "here is your function value A value ${a}"
+println "here is your function value B value ${b}"
 result = a + b  
 }
 
@@ -12,7 +13,8 @@ stages{
       script{
 
          myfunction(100,200)
-         println "here is your function value A value ${result}"
+
+         println "here is your function value  ${result}"
           }    
        }  
      }
