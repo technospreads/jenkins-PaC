@@ -1,8 +1,8 @@
 def myfunction(int a=1 , int b=5){
 result = a+b 
 println "Here is your rever" + "${result}".reverse()
-return result
-println "Here is your rever" + "${result}".reverse()
+//return result
+
 }
 
 pipeline 
