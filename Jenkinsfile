@@ -11,7 +11,7 @@ stages{
      steps{
       script{
         myfunction(10,20)
-        myfunction(10)
+        myfunction(10,200)
         
           }    
        }  
