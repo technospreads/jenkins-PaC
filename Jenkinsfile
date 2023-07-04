@@ -1,21 +1,18 @@
 def myfunction(int a , int b){
-println "here is your function value A value ${a}"
-println "here is your function value B value ${b}"
-result = a + b  
+result = a+b 
+println "Here is my function result ${result}"
 }
 
 pipeline 
 {
 agent any
 stages{
-   stage("Working with conditions"){
+   stage("Working with Loops"){
      steps{
       script{
-
-         myfunction(100,200)
-
-         println "here is your function value  ${result}"
-      
+        myfunction(10,20)
+        myfunction(10)
+        
           }    
        }  
      }
