@@ -12,7 +12,7 @@ stages{
      steps{
       script{
        println "here is my first time calling function1===" + myfunction(10,20)
-        ravi = ${result}
+        ravi = "${result}"
          println "${ravi}"
         println "here is my first time calling function2===" + myfunction(10,200)
         println "here is my first time calling function3===" + myfunction(10)
