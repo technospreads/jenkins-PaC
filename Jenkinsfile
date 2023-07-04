@@ -1,6 +1,6 @@
 def myfunction(int a , int b){
 result = a+b 
-println "Here is my function result ${result}"
+return result
 }
 
 pipeline 
@@ -10,8 +10,8 @@ stages{
    stage("Working with Loops"){
      steps{
       script{
-        myfunction(10,20)
-        myfunction(10,200)
+        println "here is my first time calling function" + myfunction(10,20)
+        println "here is my first time calling function " + myfunction(10,200)
         
           }    
        }  
