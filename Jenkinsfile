@@ -6,6 +6,7 @@ stages{
      steps{
       script{
             File obj = new File("/tmp/ravi.txt")
+             obj.write("Hi team welcome to TechnoSreads DevOps")
                   
           }    
        }  
