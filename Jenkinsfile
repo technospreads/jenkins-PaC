@@ -19,7 +19,7 @@ stages{
             println "Here is my file content ==== ${obj.text}" 
             for (line in obj.readLines() ){
                println "Here is my read line content=== ${line}"
-            |      
+            }      
           }    
        }  
      }
