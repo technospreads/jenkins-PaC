@@ -5,6 +5,11 @@ stages{
    stage("Working with Loops"){
      steps{
       script{
+         /*
+         this is my line one comment
+         this is my line 2 comment 
+         final
+         */
             File obj = new File("/tmp/ravi.txt")
             obj.write("This is my PaC inside test code\n")
             obj.append("This is my Jenkin-Pac-test-case\n")
