@@ -1,6 +1,6 @@
 pipeline 
 {
-agent any #this is my agent selection
+agent any //this is my agent selection
 stages{
    stage("Working with Loops"){
      steps{
