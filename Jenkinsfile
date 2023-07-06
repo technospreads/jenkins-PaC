@@ -6,7 +6,8 @@ stages{
      steps{
       script{
             File obj = new File("/tmp/ravi.txt")
-            obj.write("This is my PaC inside test code")
+            obj.write("This is my PaC inside test code\n")
+            obj.write("This is my Jenkin-Pac-test-case\n")
             println "Here is my file content ==== ${obj.text}" 
             println "Here is my read line content=== ${obj.readLines()}"
                   
