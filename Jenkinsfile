@@ -6,7 +6,7 @@ stages{
      steps{
       script{
             File obj = new File("/tmp/ravi.txt")
-            obj.write()
+            obj.write("This is my PaC inside test code")
             println "Here is my file content ==== ${obj.text}" 
             println "Here is my read line content=== ${obj.readLines()}"
                   
