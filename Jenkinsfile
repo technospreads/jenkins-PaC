@@ -1,25 +1,17 @@
 pipeline
 {
-agent any 
+agent any //this is my agent selection
 stages{
    stage("Stage1"){
      steps{
-      			println "Hi am from stage1"
-
+      script{
+	    var1 = 10
+		ravi = "Raveender Nenavath"
+			println "Hello here is your variable value : ${var1}"
+			println "Hello here is your variable value : ${ravi}"
         }
-      }
-   stage("Stage2"){
-     steps{
-                        println "Hi am from stage2"
-
-        }
-      }
-   stage("Stage3"){
-     steps{
-                        println "Hi am from stage3"
-
-        }
-      }
+       }
+     }
 
    }
 }
